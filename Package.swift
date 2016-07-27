@@ -24,6 +24,6 @@ let package = Package(
 	pkgConfig: "libmongoc-1.0",
 	providers: [
 	           	.Brew("mongo-c"),
-	           	.Apt("libmongoc"),
+	           	.Apt("libmongoc-dev"),
 	]
 )
