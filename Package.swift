@@ -23,7 +23,7 @@ let package = Package(
 	name: "libmongoc",
 	pkgConfig: "libmongoc-1.0",
 	providers: [
-	           	.Brew("mongo-c"),
+	           	.Brew("mongo-c-driver"),
 	           	.Apt("libmongoc-dev"),
 	]
 )
