@@ -1,2 +1,2 @@
-RUN apt-get -y update && apt-get install -y libbson-dev libmongoc-dev
-RUN ln -s /usr/include/libmongoc-1.0 /usr/local/include/libmongoc-1.0
+#RUN apt-get -y update && apt-get install -y libbson-dev libmongoc-dev
+#RUN ln -s /usr/include/libmongoc-1.0 /usr/local/include/libmongoc-1.0
