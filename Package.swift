@@ -25,5 +25,6 @@ let package = Package(
 	providers: [
 	           	.Brew("mongo-c-driver"),
 	           	.Apt("libmongoc-dev"),
+	           	.Apt("libbson-dev"),
 	]
 )
