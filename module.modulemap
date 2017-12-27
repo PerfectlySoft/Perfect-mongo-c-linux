@@ -1,5 +1,6 @@
 module libmongoc {
-    header "/usr/local/include/libmongoc-1.0/mongoc.h"
+    header "/usr/include/libbson-1.0/bson.h"
+    header "/usr/include/libmongoc-1.0/mongoc.h"
     link "mongoc-1.0"
     export *
 }
